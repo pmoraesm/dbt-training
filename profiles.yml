@@ -1,0 +1,10 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: data-lake-playground-4xm9
+      dataset: dbt_pmoraesfilho
+      threads: 1
+      keyfile: /Users/paulo/Documents/Projects/training/dbt-courses/data-lake-playground-4xm9-157fe1839532.json

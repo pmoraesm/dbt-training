@@ -35,5 +35,7 @@ models:
   jaffle_shop:
     staging:
       +materialized: view
+      all_dates:
+        +materialized: table
     marts:
       +materialized: table
