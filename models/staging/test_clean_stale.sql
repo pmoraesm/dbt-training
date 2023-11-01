@@ -1,1 +1,0 @@
-select * from dbt_pmoraesfilho.INFORMATION_SCHEMA.TABLES
